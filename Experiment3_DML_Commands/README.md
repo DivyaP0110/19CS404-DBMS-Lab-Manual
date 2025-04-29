@@ -47,123 +47,139 @@ SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
 --
--- Paste Question 1 here
+-- ![image](https://github.com/user-attachments/assets/9958cd61-4ea8-48d2-bc93-7d42675d5292)
+
 
 ```sql
--- Paste your SQL code below for Question 1
+-- UPDATE products SET reorder_lvl=reorder_lvl*0.7 WHERE product_name LIKE "%cream%" AND quantity>reorder_lvl;
 ```
 
 **Output:**
 
-![Output1](output.png)
+![image](https://github.com/user-attachments/assets/609b7094-0f70-4260-acde-53e65bfdccef)
+
 
 **Question 2**
 ---
--- Paste Question 2 here
+-- ![image](https://github.com/user-attachments/assets/d7eef7a8-d94f-4322-9746-f3c6db6791af)
+
 
 ```sql
--- Paste your SQL code below for Question 2
+-- UPDATE customer SET grade=5 WHERE city="Chennai";
 ```
 
 **Output:**
 
-![Output2](output.png)
+![image](https://github.com/user-attachments/assets/7ce7d6e1-c73f-46b4-ad95-d5c375b7e0ae)
+
 
 **Question 3**
 ---
--- Paste Question 3 here
+-- ![image](https://github.com/user-attachments/assets/9b50723c-b554-4cbe-a5e1-82c80105726d)
+
 
 ```sql
--- Paste your SQL code below for Question 3
+-- UPDATE employees SET email="Unavailable";
 ```
 
 **Output:**
 
-![Output3](output.png)
+![image](https://github.com/user-attachments/assets/a62e7c85-0913-46dc-8ea4-9d873b9f3043)
+
 
 **Question 4**
 ---
--- Paste Question 4 here
+-- ![image](https://github.com/user-attachments/assets/b360c473-1786-47dc-a6fe-6685b7b9bbfd)
+
 
 ```sql
--- Paste your SQL code below for Question 4
+--UPDATE products SET sell_price=sell_price*1.15 WHERE quantity<50 AND supplier_id=10;
 ```
 
 **Output:**
 
-![Output4](output.png)
+![image](https://github.com/user-attachments/assets/aa42a198-f13e-472b-952e-59123a4d56c0)
+
 
 **Question 5**
 ---
--- Paste Question 5 here
+-- ![image](https://github.com/user-attachments/assets/e253473c-7dab-439c-a701-f307801fc665)
 
 ```sql
--- Paste your SQL code below for Question 5
+-- UPDATE sales SET total_sell_price=quantity*sell_price WHERE product_id=10;
 ```
 
 **Output:**
 
-![Output5](output.png)
+![image](https://github.com/user-attachments/assets/30711432-8730-44f0-9aa0-3a6b2cdd633d)
 
 **Question 6**
 ---
--- Paste Question 6 here
+-- ![image](https://github.com/user-attachments/assets/aaf9581a-52ff-4f8f-ae27-37616af0b20d)
+
 
 ```sql
--- Paste your SQL code below for Question 6
+-- DELETE FROM customer WHERE GRADE>=2;
 ```
 
 **Output:**
 
-![Output6](output.png)
+![image](https://github.com/user-attachments/assets/8d8cc402-d338-4a2d-ade6-41cde38f58c8)
+
 
 **Question 7**
 ---
--- Paste Question 7 here
+-- ![image](https://github.com/user-attachments/assets/2b2c11be-11df-4608-99e2-2dc638037d84)
+
 
 ```sql
--- Paste your SQL code below for Question 7
+-- DELETE FROM customer WHERE cust_country="India" AND cust_city!="Chennai";
 ```
 
 **Output:**
 
-![Output7](output.png)
+![image](https://github.com/user-attachments/assets/543bf1b8-628d-4785-a036-bc8cd418d799)
+
 
 **Question 8**
 ---
--- Paste Question 8 here
+-- ![image](https://github.com/user-attachments/assets/524fdad2-98c7-4564-9c4f-e07753192e7a)
 
 ```sql
--- Paste your SQL code below for Question 8
+-- DELETE FROM customer WHERE cust_city!="New York" AND outstanding_amt>5000;
 ```
 
 **Output:**
 
-![Output8](output.png)
+![image](https://github.com/user-attachments/assets/60add631-de79-4cd7-9b76-013f557c3ccc)
+
 
 **Question 9**
 ---
--- Paste Question 9 here
+-- ![image](https://github.com/user-attachments/assets/a62be8f2-1826-4d54-8cef-8c278791c3e9)
+
 
 ```sql
--- Paste your SQL code below for Question 9
+-- DELETE FROM Customer WHERE cust_country="UK" AND working_area="London" AND grade<3;
 ```
 
 **Output:**
 
-![Output9](output.png)
+![image](https://github.com/user-attachments/assets/a8a9b1af-e7f6-422d-86c0-e2d9aec2513f)
 
 **Question 10**
 ---
--- Paste Question 10 here
+-- ![image](https://github.com/user-attachments/assets/9954e74b-b9c0-4287-9087-21deaf7bb685)
+
 
 ```sql
--- Paste your SQL code below for Question 10
+-- delete from customer where grade%2!=0;
 ```
 
 **Output:**
 
-![Output10](output.png)
+![image](https://github.com/user-attachments/assets/e31f1798-f827-450a-a552-a866d89fb943)
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
